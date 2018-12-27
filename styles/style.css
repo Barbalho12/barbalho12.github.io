@@ -2,12 +2,77 @@
 .center {
 	text-align: center;
 }*/
+*{
+	margin: 0;
+}
 
 #all-box {
 	text-align: center;
+	background-color: #101010;
+	padding: 10%;
+}
+
+#projects-box {
+	text-align: center;
+	background-color: #6666dd;
+	background-color: #ffffff;
+	padding: 10%;
 }
 
 #me-image {
-	/*width: 20%;*/
 	width: 100px;
+	border-radius: 8%;
+	border: 2px solid #ddd;
+	padding: 1px;
+}
+
+#my-name{
+	color: #ddd;
+	margin: 20px;
+}
+
+#titles{
+	/*color: #ddd;*/
+	color: #101010;
+
+}
+
+#my-resume{
+	color: #ddd;
+}
+
+.box{
+	display: inline-block;
+	margin: 2%;
+}
+
+.box-block{
+	display: block;
+}
+
+.project-content{
+	/*background-color: #ddd;*/
+	padding: 10px;
+	margin-top: 20px;
+}
+
+
+.project-title{
+	/*background-color: #ddd;*/
+	margin: 10px;
+}
+
+
+/*.left{
+	text-align: left;
+	background-color: #ddd;
+	padding: 2%;
+}
+*/
+/*.right{
+	text-align: right;
+}
+*/
+.logo-app{
+	width: 80px;
 }
