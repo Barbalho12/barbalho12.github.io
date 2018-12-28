@@ -10,10 +10,16 @@
 
 #projects-box {
 	text-align: center;
-	background-color: #6666dd;
-	background-color: #ffffff;
-	padding: 10%;
+	background-color: #eeeeee;
 }
+
+#research-box {
+	text-align: center;
+	background-color: #3b585d;
+	color: #cccccc;
+
+}
+
 
 #me-image {
 	width: 200px;
@@ -28,8 +34,9 @@
 }
 
 #titles{
-	color: #101010;
-	margin: 2%;
+	color: #3b585d;
+	/*background-color: #cccccc;*/
+	padding: 2%;
 }
 
 #my-resume{
@@ -41,7 +48,7 @@
 	vertical-align: top;
 	display: inline-block;
 	margin: 1em;
-	width: 250px;
+	width: 300px;
 }
 
 .box-block{
