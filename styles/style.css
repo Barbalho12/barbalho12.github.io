@@ -29,13 +29,16 @@
 
 #titles{
 	color: #101010;
+	margin: 2%;
 }
 
 #my-resume{
 	color: #ddd;
+	text-align:justify;
 }
 
 .box{
+	vertical-align: top;
 	display: inline-block;
 	margin: 1em;
 	width: 250px;
@@ -58,9 +61,8 @@
 
 .project-description{
 	/*background-color: red;*/
-	height: 80px;
+	/*height: 80px;*/
 }
-
 
 .logo-app-box{
 	width: 100px;
