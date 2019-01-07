@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Staatliches|Open+Sans|Thasadith');
+
 *{
 	margin: 0;
 }
 
 #all-box {
 	text-align: center;
-	background-color: #101010;
+	/*background-color: #101010;*/
 	padding: 10%;
+	background-image: url("../images/workplace.png");
+	background-image: url("../images/worksplace2.jpg");
+	background-repeat: no-repeat;
+	background-color: #cccccc;
+
+	height: 500px; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; 
 }
 
 #projects-box {
@@ -31,17 +42,26 @@
 #my-name{
 	color: #ddd;
 	margin: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+ 	letter-spacing: 2px;
 }
 
 #titles{
 	color: #3b585d;
 	/*background-color: #cccccc;*/
+	font-family: 'Staatliches', cursive;
 	padding: 2%;
+	letter-spacing: 4px;
 }
 
 #my-resume{
 	color: #ddd;
 	text-align:justify;
+	/*font-family: 'Raleway', sans-serif;*/
+	font-family: 'Thasadith', sans-serif;
+	letter-spacing: 2px;
 }
 
 .box{
@@ -49,6 +69,9 @@
 	display: inline-block;
 	margin: 1em;
 	width: 300px;
+	border-radius: 2%;
+	border: 2px solid #ddd;
+	background-color: rgba(230,230,230,50);
 }
 
 .box-block{
@@ -63,12 +86,15 @@
 
 .project-title{
 	margin: 10px;
-	/*background-color: blue;*/
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	font-weight: bold;
 }
 
 .project-description{
 	/*background-color: red;*/
 	/*height: 80px;*/
+	font-family: 'Raleway', sans-serif;
 }
 
 .logo-app-box{
